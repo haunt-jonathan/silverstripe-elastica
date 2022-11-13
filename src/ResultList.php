@@ -145,7 +145,7 @@ class ResultList extends ViewableData implements SS_List, Limitable
     /**
      * @return ArrayIterator|Traversable
      */
-    public function getIterator()
+    public function getIterator() : Traversable
     {
         return new ArrayIterator($this->toArray());
     }
@@ -404,7 +404,7 @@ class ResultList extends ViewableData implements SS_List, Limitable
     /**
      * @inheritdoc
      */
-    public function offsetGet($offset)
+    public function offsetGet($offset) : mixed
     {
         $array = $this->toArray();
         return isset($array[$offset]) ? $array[$offset] : null;
