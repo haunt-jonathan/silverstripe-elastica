@@ -1,5 +1,5 @@
 {
-    "name": "heyday/silverstripe-elastica",
+    "name": "haunt-jonathan/heyday-silverstripe-elastica",
     "description": "Provides Elastic Search integration for SilverStripe DataObjects using Elastica",
     "type": "silverstripe-vendormodule",
     "homepage": "http://github.com/heyday/silverstripe-elastica",
